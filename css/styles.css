@@ -6,23 +6,36 @@ body {
 }
 
 h1 {
-	margin-top: 0;
+	font-size: 5rem; /* 16px = 100% = 1em    from CSS3 the rem has more power to set a Static font size root element font*/
+	margin: 50px auto 0 auto;
 	font-family: 'Merienda One', cursive; 
 	/* font-family: 'Sacramento', cursive; */
+	color: #66BFBF;
+	line-height: 2;
 }
 
 h2{
 	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
+	color: #66BFBF;
+	font-weight: normal;
+
 }
 
 h3{
 	font-family: 'Montserrat', sans-serif;
+	color: #11999E;
+}
+
+hr{
+	border-top: #DDDDDD dotted 8px;
+	width: 5%;
 }
 
 
 .top-container {
 	position: relative;
-	padding-top: 100px;
+	padding-top: 200px;
 	background-color: #e4f9f5;
 	
 }
@@ -32,8 +45,10 @@ h3{
 	
 }
 .bottom-container {
-	
-
+	margin-top: 100px;
+	background-color: #66BFBF;
+	height: 100px;
+	align-items: center;
 }
 
 .bottom-cloud{
@@ -47,3 +62,46 @@ h3{
 	left: 300px;
 	bottom: 300px;
 }
+
+.footer-link{
+	color: #11999E;
+}
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.software-engineer-icons{
+    width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+
+.software-test-icons{
+    width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+
+.btn {
+	-webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	/*font-family: 'Mukta', sans-serif;*/
+	font-family: 'Crimson Text', serif;
+	color: #ffffff;
+	font-size: 20px;
+	background: #000000;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+  }
+  
+  .btn:hover {
+	background: #f51b51;
+	text-decoration: none;
+  }
+
+  .myimage{
+	width: 25%;
+  }

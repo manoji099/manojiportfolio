@@ -1,4 +1,5 @@
 body {
+	color: #40514E;
 	background-color: #f0f0f0;
 	margin: 0;
 	text-align: center;
@@ -15,6 +16,7 @@ h1 {
 }
 
 h2{
+	padding-bottom:10px ;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5rem;
 	color: #66BFBF;
@@ -30,6 +32,7 @@ h3{
 hr{
 	border-top: #DDDDDD dotted 8px;
 	width: 5%;
+	margin: 100px auto ;
 }
 
 
@@ -39,13 +42,22 @@ hr{
 	background-color: #e4f9f5;
 	
 }
+.intro{
+	width: 40%;
+	margin: auto;
+}
+
+.contact-me{
+	width: 50%;
+	margin: 40px auto 60px;
+}
 
 .middle-container {
-	
+	margin: 100px 0px;
 	
 }
 .bottom-container {
-	margin-top: 100px;
+	padding: 50px 0px 20px ;
 	background-color: #66BFBF;
 	height: 100px;
 	align-items: center;
@@ -54,18 +66,16 @@ hr{
 .bottom-cloud{
 	position: absolute;
 	right: 300px;
-	top: 50px;
+	top: 40px;
 }
 
 .top-cloud{
 	position: absolute;
 	left: 300px;
-	bottom: 300px;
+	bottom: 275px;
 }
 
-.footer-link{
-	color: #11999E;
-}
+
 .skill-row{
 	width: 50%;
 	margin: 100px auto 100px auto;
@@ -89,19 +99,37 @@ hr{
 	-moz-border-radius: 9;
 	border-radius: 9px;
 	/*font-family: 'Mukta', sans-serif;*/
-	font-family: 'Crimson Text', serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
 	font-size: 20px;
-	background: #000000;
+	background: #11999E;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
   }
   
   .btn:hover {
-	background: #f51b51;
+	background: #2bc4ad;
 	text-decoration: none;
   }
 
   .myimage{
-	width: 25%;
+	width: 20%;
   }
+
+  .copyright{
+	color: #EAF6F6;
+	font-size: 0.95rem;
+	padding: 20px 0;
+  }
+
+  a{
+	color: #11999E;
+	margin: auto 20px auto 20px;
+	text-decoration: none;
+	font-family: 'Merriweather', serif;
+}
+
+a:hover{
+	color: #EAF6F6;
+
+}

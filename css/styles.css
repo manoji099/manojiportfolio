@@ -1,3 +1,14 @@
+@media screen and (max-width: 655px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div,head,body,.top-container,.bottom-container,.bottom-cloud,.top-cloud,.btn{
+        width: 100%;
+    }
+}
+
 body {
 	color: #40514E;
 	background-color: #f0f0f0;
